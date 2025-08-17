@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/", // Куда производится сборка
+        "noImplicitAny": true, // Запрещает использовать переменные без явного указания типа
+        "module": "ESNext",
+        "target": "es5", // В какую версию компилируется
+        "jsx": "react-jsx", // Писать скрипт в html
+        "allowJs": true, // Обработка не только ts, но и js
+        "moduleResolution": "node", // node или classic
+        "allowSyntheticDefaultImports": true, // import * as '' --> import ''
+        "esModuleInterop": true, // require('') --> import ''
+        "baseUrl": "." // для абсолютного импорта
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    }
+}
