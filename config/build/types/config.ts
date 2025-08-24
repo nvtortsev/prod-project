@@ -1,9 +1,10 @@
-export type BuildMode = "production" | "development";
+export type BuildMode = 'production' | 'development';
 
 export interface BuildPaths {
     entry: string; // путь для entry поинта
     build: string; // путь до папки build
     html: string; // путь до файла public/index.html
+    src: string;
 }
 
 export interface BuildOptions {
