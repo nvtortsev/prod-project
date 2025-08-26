@@ -1,9 +1,8 @@
 .app.dark {
     --bg-color: #1e1e1e; /* Темный фон */
-    --inverted-bg-color: #ffffff; /* Светлый фон для инверсии */
-
-    --primary-color: #0088cc; /* Основной синий цвет Telegram */
+    --inverted-bg-color: #fff; /* Светлый фон для инверсии */
+    --primary-color: #08c; /* Основной синий цвет Telegram */
     --secondary-color: #00bfa5; /* Зеленовато-голубой (акцент) */
-    --inverted-primary-color: #ffffff; /* Белый для текста на светлом фоне */
+    --inverted-primary-color: #fff; /* Белый для текста на светлом фоне */
     --inverted-secondary-color: #8d8d8d; /* Светло-серый для элементов на светлой теме */
 }

@@ -1,9 +1,8 @@
 .app.light {
-    --bg-color: #ffffff; /* Белый фон */
+    --bg-color: #fff; /* Белый фон */
     --inverted-bg-color: #1e1e1e; /* Темный фон для инверсии */
-
-    --primary-color: #0088cc; /* Основной синий цвет Telegram */
+    --primary-color: #08c; /* Основной синий цвет Telegram */
     --secondary-color: #00bfa5; /* Зеленовато-голубой (акцент) */
-    --inverted-primary-color: #ffffff; /* Белый для текста на темном фоне */
+    --inverted-primary-color: #fff; /* Белый для текста на темном фоне */
     --inverted-secondary-color: #8d8d8d; /* Светло-серый для элементов на темной теме */
 }

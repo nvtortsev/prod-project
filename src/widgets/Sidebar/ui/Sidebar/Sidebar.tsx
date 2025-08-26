@@ -25,7 +25,9 @@ export const Sidebar = ({ className }: SidebarProps) => {
                 <LangSwitcher className={cls.lang} />
             </div>
 
-            <button type="button" onClick={onToggle}>toggle</button>
+            <button type="button" onClick={onToggle}>
+                toggle
+            </button>
         </div>
     );
 };
