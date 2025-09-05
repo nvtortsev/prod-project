@@ -8,7 +8,7 @@ describe('classNames', () => {
     test('with additional class', () => {
         const expected = 'someClass class1 class2';
         expect(classNames('someClass', {}, ['class1', 'class2'])).toBe(
-            expected,
+            expected
         );
     });
 
@@ -18,7 +18,7 @@ describe('classNames', () => {
             classNames('someClass', { hovered: true, scrollable: true }, [
                 'class1',
                 'class2',
-            ]),
+            ])
         ).toBe(expected);
     });
 
@@ -28,7 +28,7 @@ describe('classNames', () => {
             classNames('someClass', { hovered: false, scrollable: true }, [
                 'class1',
                 'class2',
-            ]),
+            ])
         ).toBe(expected);
     });
 
@@ -38,7 +38,7 @@ describe('classNames', () => {
             classNames('someClass', { hovered: undefined, scrollable: true }, [
                 'class1',
                 'class2',
-            ]),
+            ])
         ).toBe(expected);
     });
 });
